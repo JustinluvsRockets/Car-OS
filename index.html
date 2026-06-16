@@ -1,0 +1,139 @@
+HTML:<!DOCTYPE html>
+<html>
+  <head>
+  <script type="module" src="./script.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body style="background-image: url(./BackgroundOS.jpg)",  background-size: cover; background-repeat: no-repeat; font-family: Helvetica, Noto Sans, cursive>
+    <div id="welcome" styles="(styles)"; style="border: 4mm ridge rgb(211 220 50 / 0.6); width: fit-content; border-radius: 16px; padding: 16px; position: absolute; top: 50%; left: 50%; 
+transform: translate(-50%, -50%); background-color: white;">
+
+  
+            <p id="welcomeclose" style="width: 16px; height: 16px; cursor: pointer; background-color: #EC6B5E; border-radius: 16px; border: solid 1px rgba(0, 0, 0, 0.25); margin-left: 6px;"</p>
+
+            <p id="welcomeheader">
+
+                    <img src="./SteeringWheel.png" width="35">
+
+            </p>
+
+    <h1>Vroom Vroom Welcome to Car OS</h1>
+
+    <h1 style="margin: 4px;">CarOS</h1>
+
+    <h2>Super cars, regular cars, my subaru, all cars are found here</h2>
+
+     <a style="color : rgb(44, 182, 129)" href="https://configurator.porsche.com/en-US/mode/model/992452?options=9P8.VT6.1LQ.QH1.QR9.VR7.VL0.8JU.1N3.6F1.6EE.6FJ.8T1.3S4.4L6.K8C.6XV.0I3.9WT.Q1J.FN8.7X2.2V1.G1G.5ZP.1G8.6BA.1P7.4UB.6RC.5KS.9JA.9VL.7K3.1X1.KA2.6JD.8PK.2C7.7AL.2W7.6I3.3FA.QD4.UX7.QU8.0TC.5XX.6K9.IW3.VC2.E0A.1BH.7UG.0NB.0N5.9AD.3L4.4A3.9ZE.QJ1.EM2.95B.VF2.GH3.4F6.VK2.4GP.8VG.D7K.8N7.IV2.QQ2.UI2.GV1.8LU.S6J.2PJ.G9.XM.1NV.FZ0.24940.5TE.0P5.60M.ALC.4D3.VM8.DFA.Z1S.DCK&variants=24940_BG/">My Custom Porche</a>
+
+
+
+
+    <p style="color : rgb(44, 182, 129)">This is Car OS where all the cars are</p>
+
+    <img src="./Porche.jpg" width="300">
+
+    
+      
+
+     
+            
+    </div>
+
+
+    
+    <div style="position: absolute; width: 50%; display: flex; backdrop-filter: blur(10px); background-color: rgba(0, 0, 0, 0.25); color: #ffffff; justify-content: space-between;">
+
+            <p id="welcomeopen" style="cursor:pointer; color: white; margin-top: 12px;">CarOS</p>
+
+            <p id="timeElement" style="font-family: Helvetica, Noto Sans, cursive"></p>
+
+            <p>
+
+                      The best mode of transportation
+
+            </p>
+
+             
+
+
+
+    </div>
+
+    <div id="desktopApps" style="padding-top: 64px; padding-left: 16px;">
+    <p>Offline</p>
+    </div>
+
+    <div id="desktopApps" style="padding-top: 64px;">
+   <div onclick="handleIconTap(this, 'Offline')" style="text-align: center; padding: 16px; filter: drop-shadow(0 0 8px black); width: fit-content">
+  <img src="./Engine.jpg" style="width: 64px; height: 64px; border-radius: 16px;">
+  <p style="margin: 0px; color: #fff;">Offline</p>
+  </div>
+
+  <div onclick="handleIconTap(this, 'Edit')" style="text-align: center; padding: 16px; filter: drop-shadow(0 0 8px black); width: fit-content">
+  <img src="./Tiktok.png" style="width: 64px; height: 64px; border-radius: 16px;">
+  <p style="margin: 0px; color: #fff;">Edits</p>
+  </div>
+
+
+    </div>
+
+    <div id="Offline" style="border: 4mm ridge rgba(6, 255, 159, 0.6); display: none; width: fit-content; border-radius: 16px; padding: 16px; position: absolute; top: 50%; left: 50%; 
+transform: translate(-50%, -50%); background-color: white;">
+
+  
+            <p id="Offlineclose" style="width: 16px; height: 16px; cursor: pointer; background-color: #EC6B5E; border-radius: 16px; border: solid 1px rgba(0, 0, 0, 0.25); margin-left: 6px;"</p>
+
+            <p id="Offlinesheader">
+
+                    <img src="./SteeringWheel.png" width="35">
+
+            </p>
+
+    <h1>Cars ive seen</h1>
+
+    <p style="color : rgb(44, 182, 129)">The car built by Virgina Techs MechEngineers</p>
+
+    <img src="./VTcar.jpg" width="300">
+
+    
+      
+
+     
+            
+    </div>
+
+     <div id="Edit" style="border: 4mm ridge rgba(6, 10, 255, 0.6); display: none; width: fit-content; border-radius: 16px; padding: 16px; position: absolute; top: 50%; left: 50%; 
+transform: translate(-50%, -50%); background-color: white;">
+
+  
+            <p id="Editclose" style="width: 16px; height: 16px; cursor: pointer; background-color: #EC6B5E; border-radius: 16px; border: solid 1px rgba(0, 0, 0, 0.25); margin-left: 6px;"</p>
+
+            <p id="Editsheader">
+
+                    <img src="./SteeringWheel.png" width="35">
+
+            </p>
+
+    <h1>Tiktok Edit</h1>
+
+    <p style="color : rgb(14, 45, 219)">Edit I liked</p>
+
+   
+
+    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@rezzy_dme/video/7642232352537693447" data-video-id="7642232352537693447" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@rezzy_dme" href="https://www.tiktok.com/@rezzy_dme?refer=embed">@rezzy_dme</a> Dolce &#38; Gabbana With GTR R35 #rezzyobezbasher #elitesquad #nissan #dolcegabbanaedit #gtrr35edit <a title="editingnews" target="_blank" href="https://www.tiktok.com/tag/editingnews?refer=embed">#editingnews</a> ・ Upload Method → @editingnews.com <a target="_blank" title="♬ the kill 2 - Lex Amarni &#38; 2muchmotion" href="https://www.tiktok.com/music/the-kill-2-7579613521568516112?refer=embed">♬ the kill 2 - Lex Amarni &#38; 2muchmotion</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+
+    
+      
+
+     
+            
+    </div>
+
+    <script src="script.js"></script>
+
+
+
+  </body>
+
+</html>
