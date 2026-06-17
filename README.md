@@ -34,5 +34,6 @@ Code
 │ 
 Images
 
+Demo link: https://justinluvsrockets.github.io/Car-OS/
 Credit to @rezzy_dme on tiktok for the embedded link I have as an app.
-I used AI to help me resolve a small section of code that prior I had spent 45 minutes trying to fix to no avail. After that time period I asked AI for a hint and then a clarification which allowed me to fix my code.
+I used AI to help me resolve a small section of code that prior I had spent 45 minutes trying to fix to no avail. After that time period I asked AI for a hint and then a clarification which allowed me to fix my code. I also used it to help me write this README as I was unfamilar with the format. 
